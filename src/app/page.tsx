@@ -10,7 +10,7 @@ export default function Home() {
         <p className="text-xl text-gray-600 mb-8">
           Welcome to our simple hello page
         </p>
-        <HelloButton />
+        <HelloButton className="bg-purple-500 hover:bg-purple-600" />
       </div>
     </main>
   );
